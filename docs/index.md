@@ -31,7 +31,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 ### Reaction On Static Objects
 
 <video id="scn0101", controls="true" preload="none", poster="..\images\01_static_object\0116.jpg">
-    <source src="..\videos\01_static_object\0116.mp4" type="video/mp4">
+      <source src="..\videos\01_static_object\0116.mp4" type="video/mp4">
 </videos>
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/msm216/sensors_comparing/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
