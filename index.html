@@ -4,15 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Show Autel Radar</title>
+    <link rel="shortcut icon" href="dute_favicon_32x32.ico">
+    <style>
+        .video_container {
+            width: 100%;
+            height: 18rem;
+            position: absolute;
+            background: transparent no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <p>1234567890</p>
+    <p>a paragraph</p>
+    <p>another paragraph</p>
+    <p>what a paragraph</p>
     <details>
     	<summary>Scene 0116</summary>
-        <video id="scn0116", controls="true" preload="none", poster=""images\01_static_object\0116.jpg">
-        	<source src="videos\01_static_object\0116.mp4" type="video/mp4">
-        </video>
+        <div class="video_container">
+            <video 
+            id="scn0116"
+            height="240"
+            onMouseOver="this.play()"
+            onMouseOut="this.load()"
+            loop
+            poster="images\01_static_object\0116.jpg"
+            style="object-fit:fill"
+            >
+                <source src="videos\01_static_object\0116.mp4" type="video/mp4">
+                Your browser does not support html video tag. 
+            </video>
+        </div>
     </details>
+    <p>a paragraph</p>
+    <p>another paragraph</p>
+    <p>what a paragraph</p>
+    <div class='modelo-wrapper'> 
+        <div style="width:100%; height:50%; padding-bottom:56.25%; position:relative"> 
+            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"> 
+                <iframe src="https://app.modaiyun.com/embedded/1506753390497591296?viewport=true&autoplay=true&autorotate=false&hideTools=false&showBIM=false&showBBoxSize=false&showKooRender=false&showSettings=false" 
+                    style="width:100%;height:100%;" 
+                    frameborder="0" 
+                    mozallowfullscreen 
+                    webkitallowfullscreen
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </body>
+<script type="text/javascript">
+    function videoJumper()
+    {
+        var vdo = document.getElementById("scn0116").innerHTML
+    }
+    function something()
+    {
+        
+    }
+</script>
 </html>
